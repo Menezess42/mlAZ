@@ -19,7 +19,7 @@
             scipy
             pandas
             matplotlib
-            scikit-image
+            # scikit-image
             pytest
             ipykernel
             ipython
