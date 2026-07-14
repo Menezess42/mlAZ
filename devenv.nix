@@ -30,6 +30,7 @@
             pyflakes
             isort
             debugpy
+            nltk
         ]);
         venv.enable = true;
         venv.requirements = ''
