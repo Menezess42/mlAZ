@@ -11,6 +11,7 @@
             scipy
             pandas
             matplotlib
+            # tensorflow removido daqui de propósito
             pytest
             ipykernel
             ipython
@@ -35,6 +36,7 @@
         venv.enable = true;
         venv.requirements = ''
             apyori==1.1.2
+            tensorflow
         '';
     };
     enterShell = ''
@@ -42,12 +44,10 @@
     '';
 }
 # { pkgs, lib, config, inputs, ... }:
-#
 # {
 #     packages = [
 #         pkgs.pyright
 #     ];
-#
 #     languages.python = {
 #         enable = true;
 #         package = pkgs.python313.withPackages (p: with p; [
@@ -56,7 +56,7 @@
 #             scipy
 #             pandas
 #             matplotlib
-#             #apyori
+#             tensorflow
 #             pytest
 #             ipykernel
 #             ipython
@@ -76,10 +76,13 @@
 #             pyflakes
 #             isort
 #             debugpy
+#             nltk
 #         ]);
 #         venv.enable = true;
+#         venv.requirements = ''
+#             apyori==1.1.2
+#         '';
 #     };
-#
 #     enterShell = ''
 #       echo "$(python --version) — venv ativo"
 #     '';
