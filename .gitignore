@@ -13,3 +13,8 @@ devenv.local.nix
 Machine-Learning-A-Z-Codes-Datasets/
 
 zips/
+
+*.png
+*.jpeg
+*.jpg
+*.zip
