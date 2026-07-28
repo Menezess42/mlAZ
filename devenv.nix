@@ -11,6 +11,7 @@
             scipy
             pandas
             matplotlib
+            xgboost
             # tensorflow removido daqui de propósito
             pytest
             ipykernel
