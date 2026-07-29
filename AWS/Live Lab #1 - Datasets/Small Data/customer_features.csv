@@ -1,0 +1,11 @@
+CustomerId,Surname,Gender,Age,Geography,IsActiveMember,HasPremiumMembership
+1,Hargrave,Female,42,USA,1,1
+2,Hill,Female,41,Canada,1,0
+3,Onio,Female,42,USA,0,1
+4,Boni,Female,39,USA,0,0
+5,Mitchell,Female,43,Canada,1,1
+6,Chu,Male,44,Canada,0,1
+7,Bartlett,Male,50,USA,1,1
+8,Obinna,Female,29,UK,0,1
+9,He,Male,44,USA,1,0
+10,Heisenberg,Male,27,USA,1,1
